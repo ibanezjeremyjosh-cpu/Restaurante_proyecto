@@ -20,7 +20,7 @@ p.sub{color:var(--gray);margin-bottom:20px}
 </head>
 <body>
 <div class="wrap">
-    <h1>🍔 J&S<span style="color:var(--steel)">Burger Bros</span></h1>
+    <h1>🍔 J&S<span style="color:var(--steel)">Mario Bros</span></h1>
     <p class="sub">Inicia sesión para continuar</p>
     <div class="form-group"><label>Correo</label><input type="email" placeholder="correo@ejemplo.com"></div>
     <div class="form-group"><label>Contraseña</label><input type="password" placeholder="••••••••"></div>
