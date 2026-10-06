@@ -22,9 +22,14 @@ p.sub{color:var(--gray);margin-bottom:20px}
 <div class="wrap">
     <h1>🍔 J&S<span style="color:var(--steel)">Burger Bros</span></h1>
     <p class="sub">Ingresa tu usuario y contraseña</p>
+
+@if (session('exito'))
+    <p style="color:green;margin-bottom:14px">{{ session('exito') }}</p>
+@endif
     <div class="form-group"><label>Correo</label><input type="email" placeholder="correo@ejemplo.com"></div>
     <div class="form-group"><label>Contraseña</label><input type="password" placeholder="••••••••"></div>
     <a href="{{ route('productos.index') }}" class="btn">Iniciar Sesión</a>
+    <a href="{{ route('usuarios.create') }}" class="btn" style="background:var(--orange)">Crear usuario</a>
 </div>
 </body>
 </html>
